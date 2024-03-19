@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+    padding: 30px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+header.rolagem{
+    
+    background-image: linear-gradient(
+        45deg,
+        rgb(3, 37, 70),
+        rgb(0, 0, 0)
+    );
+    box-shadow: 30;
+    padding: 10px 4%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex a img{
+    width: 30%;
+    transition: .5s;
+}
+.containerHeader{
+    max-width: 1280px;
+    margin: auto;
+}
+header.rolagem a{
+  color: #e48641;
+}
+header.rolagem a img{
+    width: 20%;
+    transition: .5s;
+}
+
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    
+    display: inline-block;
+    margin: 0 40px;
+}
+header ul li a{
+    color: #e48641;
+    text-decoration: none;
+}

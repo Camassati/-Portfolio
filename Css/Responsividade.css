@@ -1,0 +1,782 @@
+
+@media only screen and (max-height: 700px) {
+    .card {
+        width: 428px;
+        height: 580px;
+        gap: 12px;
+    }
+    .card::before {
+        left: -10px;
+        width: 445px;
+        height: 590px;
+    }
+    /*--------Historia 3 SECTION------------*/
+    .txtApresenta .tituloApresenta {
+        padding-bottom: 50px;
+    }
+    .txtApresenta .ContextoApresenta p{
+        font-size: 1.3em;
+    }    
+    /*Habilidade*/
+    .Titulo {
+        padding: 20px 0 20px 0;
+    }
+    .accordion{
+        margin: 10px auto;
+        width: 600px;
+    
+    }
+    .accordion li{
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+}
+@media only screen and (max-height: 850px){
+/*--------HABILIDADES 3 SECTION------------*/
+.txtApresenta .tituloApresenta {
+    padding-bottom: 100px;
+}
+.txtApresenta .ContextoApresenta p{
+	font-size: 1.2rem;
+    color: #000000;
+}   
+.imgApresenta{
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	width: 20%;
+    height: 100%;
+    margin: 0 50px 0 100px;
+}
+.imgApresenta img{
+	box-shadow: 2px 10px 10px black;
+	border-radius: 8%;
+}
+}
+@media only screen and (min-width: 1440px)
+{
+.TextoPrincipal{
+    padding: 0px 0px 0px 20%;
+}
+.TextoPrincipal .Titulo {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+.TxtAlinhamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 100%;
+    height: 50%;
+}
+ /*Historia*/
+ .historia .Container{
+    height: 110vh;
+ }
+ .imgApresenta img{
+	box-shadow: 2px 10px 10px black;
+    width: 90%;
+	border-radius: 8%;
+}
+/*Segunda Parte*/
+.HabilidadeETempo {
+    height: 120vh;
+}
+.ContextoApresenta p{
+	font-size: 1.4em;
+    color: #000000;
+}
+.tituloApresenta h1{
+	font-size: 5rem;
+    color: #000000;
+}
+.HabilidadeETempo .accordion li label{
+    font-size: 40px;
+    padding: 0px;
+}
+.HabilidadeETempo .accordion p{
+    font-size: 25px;
+}
+/*habilidades*/
+.accordion{
+    margin: 10px auto;
+    width: 600px;
+
+}
+.accordion li{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+}
+@media only screen and (max-width: 1200px) {
+    .TextoPrincipal .Titulo {
+    padding-bottom: 50px;
+    text-align: left;
+    }
+    .TextoPrincipal .Titulo h4{
+        font-size: 3em;
+        font-weight: 600;
+        color:#e48641;
+    }
+    .TextoPrincipal .Apresentacao p{
+        font-size: 2em;
+        font-weight: 600;
+        color: #e48641;
+    }
+    .TxtAlinhamento{
+        
+        width: 70%;
+        height: 50%;
+    }
+    /*--------------HISTORIA 2 Section-------------*/
+    .ContextoApresenta{
+        padding: 0 50px 0 50px;
+        font-weight: 800;
+    }
+    .ContextoApresenta p{
+        font-size: 1.2em;
+        color: #000000;
+    }
+    .tituloApresenta h1{
+        font-size: 5rem;
+        color: #000000;
+    } 
+
+    .imgApresenta{
+    align-items: center;
+    justify-content: right;
+    width: 35%;
+    margin: 0 0px 0 100px;
+    }
+    .imgApresenta img{
+        box-shadow: 1px 5px 5px black;
+        width: 100%;
+        border-radius: 8%;
+    }
+    .txtApresenta{
+        display: block;
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        padding: 10px 0 15px 0 ;
+    }
+    .txtApresenta .tituloApresenta{
+        padding: 0 0 0 45px;
+    }
+    .HabilidadeETempo{
+        height: 120vh;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+.TextoPrincipal .Titulo {
+    padding-bottom: 50px;
+    text-align: left;
+    }
+    .TextoPrincipal .Titulo h4{
+        font-size: 3em;
+        font-weight: 600;
+        color:#e48641;
+    }
+    .TextoPrincipal .Apresentacao p{
+        font-size: 2em;
+        font-weight: 600;
+        color: #e48641;
+    }
+    .TxtAlinhamento{
+        
+        width: 80%;
+        height: 50%;
+    }
+    /*Card*/
+    .card {
+        width: 418px;
+        height: 570px;
+      }
+      .card::before {
+        width: 430px;
+        height: 580px;
+        border-radius: 10px;
+      }
+      
+    /*--------------HISTORIA 2 Section-------------*/
+    .ContextoApresenta{
+        padding: 0 50px 0 50px;
+        font-weight: 800;
+    }
+    .ContextoApresenta p{
+        font-size: 1.2em;
+        color: #000000;
+    }
+    .tituloApresenta h1{
+        font-size: 5rem;
+        color: #000000;
+    } 
+
+    .imgApresenta{
+    align-items: center;
+    justify-content: right;
+    width: 35%;
+    margin: 0 0px 0 100px;
+    }
+    .imgApresenta img{
+        box-shadow: 1px 5px 5px black;
+        width: 100%;
+        border-radius: 8%;
+    }
+    .txtApresenta{
+        display: block;
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        padding: 10px 0 15px 0 ;
+    }
+    .txtApresenta .tituloApresenta{
+        padding: 0 0 0 45px;
+    }
+    .HabilidadeETempo{
+        height: 120vh;
+    }
+    /*--------HABILIDADES 3 SECTION------------*/
+    .accordion{
+        margin: 60px auto;
+        width: 400px;
+    
+    }
+    .accordion li{
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    #bullets {
+        margin: 150px 0 0;
+        text-align: center;
+     }
+     #bullets label {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius:100%;
+        background: #ccc;
+        margin: 0 40px;
+     }
+    footer{
+ 
+        background-color: #2d2e33;
+        padding: 30px 5%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+/*Primeria SECTION*/
+.Container .txtApresenta .tituloApresenta{
+    padding-left: 20px;
+}
+    .TextoPrincipal .Titulo {
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    .TextoPrincipal .Titulo h4{
+        font-size: 2em;
+        font-weight: 600;
+        color:#e48641;
+    }
+    .TextoPrincipal .Apresentacao p{
+        font-size: 1.7em;
+        font-weight: 600;
+        color: #e48641;
+    }
+    .TxtAlinhamento{
+        
+        width: 80%;
+        height: 50%;
+    }
+/*Card*/
+    .card {
+        width: 318px;
+        height: 430px;
+    }
+    .card::before {
+        width: 330px;
+        height: 440px;
+        border-radius: 10px;
+    }
+/*--------------HISTORIA 2 Section-------------*/
+    .ContextoApresenta{
+        padding: 0 25px 0 25px;
+        font-weight: 800;
+    }
+    .ContextoApresenta p{
+        font-size: 1em;
+        color: #000000;
+    }
+    .tituloApresenta h1{
+        font-size: 5rem;
+        color: #000000;
+    } 
+
+    .imgApresenta{
+        align-items: center;
+        justify-content: right;
+        width: 50%;
+        margin: 0 0px 0 50px;
+    }
+    /*--------HABILIDADES 3 SECTION------------*/
+    .accordion{
+        margin: 60px auto;
+        width: 300px;
+    
+    }
+    .accordion li{
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .HabilidadeETempo .accordion li label{
+        font-size: 20px;
+        padding: 0px;
+    }
+    .HabilidadeETempo .accordion p{
+        font-size: 20px;
+    }
+/*---------------PROJETOS 4 SECTION------------*/
+#slider {
+    width: 100vw;
+ }
+ #bullets {
+    margin: 150px 0 0;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 40px;
+ }
+/*FOOTER*/
+    footer{
+ 
+        background-color: #2d2e33;
+        padding: 20px 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-col{
+        width: 40%;
+    }
+    .links a{
+        
+        margin: 0 15px 8px 0;
+       
+    }
+}
+
+
+/* 480px - 768px = tablet */
+@media (max-width: 480px) {
+    .FolhaDeRosto{
+        display: flex;
+        height: 90vh;
+        width: 100vw;
+      flex-direction: column;
+    }
+    .TextoPrincipal {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+    .learn-more{
+        align-items: center;
+        justify-content: center;
+    }
+    .TextoPrincipal .Titulo {
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    .TxtAlinhamento .Apresentacao{
+        text-align: center;
+    }
+    .card {
+        width: 328px;
+        height: 480px;
+        gap: 12px;
+    }
+    .card::before {
+        left: -10px;
+        width: 0px;
+        height: 00px;
+    }
+    .alinhamento,.TxtAlinhamento button{
+        display: none;
+    }
+    /*HISTORIA*/
+    .Container{
+        width: 100%;
+        height: 140vh;
+        flex-direction: column;
+    }
+    .imgApresenta{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        width: 100%;
+        height: auto;
+        margin: 20px 0 0 0;
+    }
+    .imgApresenta img{
+        box-shadow: 2px 10px 10px black;
+        width: 70%;
+        border-radius: 8%;
+    }
+    .txtApresenta{
+        display: block;
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 30px 0 0 0;
+    }
+    .txtApresenta .tituloApresenta{
+        display: flex;
+        align-items: center;
+        padding: 0 20px 0 20px;
+        justify-content: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .ContextoApresenta{
+        padding: 0 0 0 50px;
+        font-weight: 800;
+    }
+    .ContextoApresenta p{
+        font-size: 15px;
+        color: #000000;
+    }
+    .ContextoApresenta{
+        padding: 0 20px 0 20px;
+    }
+    .tituloApresenta{
+        padding-left: 0;
+    }
+    .tituloApresenta h1{
+        font-size: 30px;
+        color: #000000;
+    }
+    .accordion{
+        margin: 20px auto;
+        width: 200px;
+    
+    }
+    .accordion li{
+        margin: 5px;
+        padding: 5px;
+        border-radius: 8px; 
+    }
+    .Titulo{
+        text-align: center;
+        align-content: center;
+        padding: 10px 0 10px 0;
+    }
+    .TXTHabilidades .Titulo{
+        width: 100%;
+    }
+    .Titulo h1{
+        font-size: 2rem;
+    }
+    .TXTHabilidades .Titulo h2{
+        font-size: 2rem;
+        
+    }
+    .HabilidadeETempo .content p{
+        font-size: 15px;
+   }
+   .HabilidadeETempo {
+    width: 100vw;
+    height: 80vh;
+   
+    }
+    .Projetos{
+        padding: 0 0 30px 0;
+        height: auto;
+    }
+    #slider {
+        margin: 0 10px;
+        width: 100vw;
+      max-width:100vw;
+    }
+    
+    #bullets {
+        margin: 150px 0 0;
+        text-align: center;
+     }
+     #bullets label {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius:100%;
+        background: #ccc;
+        margin: 0 40px;
+     }
+     .HabilidadeETempo .accordion li label{
+        font-size: 15px;
+     }
+     .HabilidadeETempo label::before{
+        content:'+';
+        margin-right: 5px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    /*FOOTER*/
+    footer{
+ 
+        background-color: #2d2e33;
+        padding: 20px 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-col{
+        width: 100%;
+    }
+    .links a{
+        
+        margin: 0 15px 8px 0;
+       
+    }
+    
+}
+@media (max-width: 375px) {
+    .accordion{
+        margin: 20px auto;
+        width: 150px;
+    
+    }
+    .TXTHabilidades .Titulo h2{
+        font-size: 1.5rem;
+        color: #e48641;
+        
+    }
+}
+@media only screen and (min-height: 2560px){
+    .TextoPrincipal{
+        padding: 0px 0px 0px 10%;
+    }
+    .TxtAlinhamento{
+        justify-content: center;
+    }
+    .FolhaDeRosto{
+        height: 80vh;
+    }
+    .card {
+        width: 1000px;
+        height: 1300px;
+        gap: 10px;
+    }
+    .card::before {
+        left: -25px;
+        width: 1050px;
+        height: 1350px;
+    }
+    .TextoPrincipal .Titulo {
+        padding-bottom: 200px;
+      }
+    .TextoPrincipal .Titulo h4{
+        font-size: 6em;
+        font-weight: 600;
+    }
+    .TextoPrincipal .Apresentacao p{
+        font-size: 5em;
+
+    }
+    .TxtAlinhamento button{
+        display: none;
+    }
+    /*Historia*/
+    .historia .Container{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+    }
+    .imgApresenta{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        width: 30%;
+        height: 100%;
+        margin: 0 50px 0 10%;
+    }
+    .imgApresenta img{
+        box-shadow: 2px 10px 10px black;
+        width: 1000%;
+        border-radius: 8%;
+    }
+    .txtApresenta{
+        display: block;
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        padding: 5% 0 5% 0 ;
+    }
+    .txtApresenta .tituloApresenta{
+        display: flex;
+        align-items: left;
+        padding: 0 0 50px 0px;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .ContextoApresenta{
+        padding: 0 0 0 0px;
+        font-weight: 800;
+    }
+    .ContextoApresenta p{
+        font-size: 3em;
+        color: #000000;
+    }
+    .tituloApresenta h1{
+        font-size: 6rem;
+    }
+    /*HABILIDADES*/
+    .Habilidades{
+        height: 100%;
+        width: 100%;
+        color: aliceblue;
+        display: flex;
+    }
+    .HabilidadeETempo {
+        width: 100vw;
+        height: 70vh;
+        background-color: #111111;
+        background-image: linear-gradient(
+          32deg,
+          rgba(8, 8, 8, 0.74) 30px,
+          transparent
+        );
+        
+    }
+    .accordion{
+        margin: 10px auto;
+        width: 1000px;
+    
+    }
+    .accordion li{
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .TXTHabilidades .Titulo h2{
+        font-size: 10rem;
+        
+    }
+    .HabilidadeETempo .content p{
+        font-size: 4rem;
+   }
+   .HabilidadeETempo .accordion input[type = "radio"]:checked + label + .content{
+    max-height: 800px;
+    padding: 10px 10px 20px;
+}
+.HabilidadeETempo .accordion li label{
+    font-size: 4rem;
+ }
+ .Titulo h1{
+    font-size: 10rem;
+    color: #e48641;
+}
+#bullets {
+    margin: 150px 0 0;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 40px;
+ }
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #2d2e33;
+    padding: 30px 10%;
+    text-align: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 25%;
+}
+
+.footer-col h4{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 50px;
+    color: #e48641;
+    text-transform: capitalize;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #e48641;
+    height: 2px;
+    width: 100%;
+}
+ul li a{
+    display: block;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+
+.links a{
+    display: inline-block;
+    height: 88px;
+    width: 88px;
+    color: white;
+    background-color: #e48641;
+    margin: 0 30px 30px 0;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links a:hover{
+    color: #4d4f55;
+    background-color: white;
+}
+ #slides .slide{
+    width: 25%;
+    float:left;
+    display: flex;
+    height: 60vh;
+    color: #000000;
+ }
+
+}

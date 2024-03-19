@@ -1,0 +1,404 @@
+.FolhaDeRosto{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-size: 500% 100%;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+@keyframes degrade-animado{
+ 0%{
+    background-position-x: 0%;
+ }
+ 100%{
+    background-position-x: 100%;
+ }
+}
+/**/
+/**/
+
+.TextoPrincipal{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.TxtAlinhamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 50%;
+}
+.TextoPrincipal .Titulo {
+  padding-bottom: 100px;
+  text-align: left;
+}
+.TextoPrincipal .Titulo h4{
+    font-size: 3em;
+    font-weight: 600;
+    color:#e48641;
+}
+.TextoPrincipal .Apresentacao p{
+    font-size: 2em;
+    font-weight: 600;
+    color: #e48641;
+}
+.Container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    
+    background-color: #e48641;
+    background-image: linear-gradient(
+      32deg,
+      rgba(236, 28, 28, 0.74) 30px,
+      transparent
+    );
+     /*background-image:linear-gradient(to right, #0E0F11, #202146);*/
+}
+/*Historia*/
+.imgApresenta{
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	width: 30%;
+    height: 100%;
+    margin: 0 50px 0 100px;
+}
+.imgApresenta img{
+	box-shadow: 2px 10px 10px black;
+    width: 70%;
+	border-radius: 8%;
+}
+.txtApresenta{
+	display: block;
+    font-weight: 500;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	padding: 5% 0 5% 0 ;
+}
+.txtApresenta .tituloApresenta{
+	display: flex;
+	align-items: left;
+	padding: 0 0 0 50px;
+	justify-content: center;
+	justify-content: left;
+	width: 100%;
+	height: 12%;
+}
+.ContextoApresenta{
+	padding: 0 0 0 50px;
+    font-weight: 800;
+}
+.ContextoApresenta p{
+	font-size: 1.5em;
+    color: #000000;
+}
+.tituloApresenta h1{
+	font-size: 5rem;
+    color: #000000;
+}
+/*Segunda Parte*/
+.Habilidades{
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+}
+.HabilidadeETempo {
+    width: 100vw;
+    height: 100vh;
+    background-color: #111111;
+    background-image: linear-gradient(
+      32deg,
+      rgba(8, 8, 8, 0.74) 30px,
+      transparent
+    );
+}
+/*TextoHabilidades*/
+.Titulo{
+    text-align: center;
+    align-content: center;
+    padding: 30px 0 30px 0;
+}
+.TXTHabilidades .Titulo{
+    width: 100%;
+}
+.Titulo h1{
+    font-size: 4rem;
+    color: #e48641;
+}
+.TXTHabilidades .Titulo h2{
+    font-size: 3rem;
+    color: #e48641;
+    
+}
+.TXTHabilidades{
+    height: calc(80% -80px);
+    width: 100%;
+    display: flex;
+    
+}
+.TextoLinguagens,.TextoFramework{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+/*Cards*/
+.accordion{
+    margin: 60px auto;
+    width: 800px;
+  
+}
+.accordion li{
+    color: #e48641;
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid#e48641;
+    box-shadow: 6px 6px 10px -1px rgb(228, 92, 29)
+                -6px -6px 10px -1px rgba(255, 255, 255,0.7)
+    
+    ;
+}
+.HabilidadeETempo .accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.HabilidadeETempo label::before{
+    content:'+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.HabilidadeETempo input[type = "radio"]{
+    display: none;
+}
+.HabilidadeETempo .content p{
+     color: #e48641;
+     font-size: 25px;
+}
+.HabilidadeETempo .accordion .content{
+    color: #e48641;
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.HabilidadeETempo .accordion input[type = "radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.HabilidadeETempo .accordion input[type = "radio"]:disabled{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.HabilidadeETempo .accordion input[type = "radio"]:checked + label::before{
+    content: '-';
+}
+/*---------------PROJETOS---------------------*/
+.Projetos{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    color: aliceblue;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.ContainerProjetos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #912d2d;
+
+}
+/*Slides*/
+.TituloSlide{
+    color: #e48641;
+    font-size: 4rem;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.ContextoSlide{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-height: 80%;
+    justify-content: left;
+    align-items: top;
+    padding: 0px 5% 0 5%;
+}
+.ContextoSlide p{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.slide-content{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#slider {
+    margin: 0 auto;
+    width: 70vw;
+    max-width: 100%; 
+ }
+ #slider input[type=radio] {
+    display: none;
+ }
+ #slider label {
+    cursor:pointer;
+    text-decoration: none;
+ }
+ #slides {
+    padding: 10px;
+    border: 3px solid #834f29;
+    background: #000000;
+    position: relative;
+ }
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+ }
+ #slide1:checked ~ #slides .inner {
+    margin-left: 0;
+ }
+ #slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+ }
+ #slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+ }
+ #slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+ }
+ #slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    height: 300px;
+ }
+ #slides .slide{
+    width: 25%;
+    float:left;
+    display: flex;
+    height: 60vh;
+    color: #000000;
+ }
+ #slides .slide_1 {
+    background-image: url(../img/Portifólio1.PNG);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+   }
+   #slides .slide_1 h1 {
+    justify-content: center;
+     align-items: top;
+   }
+ #slides .slide_2 {
+    background-image: url(../img/Portifolio2.PNG);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+ }
+ #slides .slide_3 {
+    background-image: url(../img/Portifoli3.PNG);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+ }
+ #slides .slide_4 {
+    background: #00A8E8;
+ }
+ #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+ }
+ #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+ }
+ #controls label:hover {
+    opacity: 1;
+ }
+ #slide1:checked ~ #controls label:nth-child(2),
+ #slide2:checked ~ #controls label:nth-child(3),
+ #slide3:checked ~ #controls label:nth-child(4),
+ #slide4:checked ~ #controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+ }
+ #slide1:checked ~ #controls label:nth-last-child(2),
+ #slide2:checked ~ #controls label:nth-last-child(3),
+ #slide3:checked ~ #controls label:nth-last-child(4),
+ #slide4:checked ~ #controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+ }
+ #bullets {
+    margin: 150px 0 0;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 10px;
+ }
+ #slide1:checked ~ #bullets label:nth-child(1),
+ #slide2:checked ~ #bullets label:nth-child(2),
+ #slide3:checked ~ #bullets label:nth-child(3),
+ #slide4:checked ~ #bullets label:nth-child(4) {
+    background: #444;
+ }
+ @media screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(3),
+    #slide3:checked ~ #controls label:nth-last-child(4),
+    #slide4:checked ~ #controls label:nth-last-child(1) {
+       margin: 0;
+    }
+    #slides {
+       max-width: calc(100% - 20px);
+       margin: 0 auto;
+    }
+ }
