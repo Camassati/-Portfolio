@@ -265,6 +265,20 @@
         background: #ccc;
         margin: 0 40px;
      }
+     #slider {
+        width: 90vw;
+     }
+     /*PROJETOS*/
+     #overflow {
+        width: 100%;
+        overflow: hidden;
+        height: 498px;
+     }
+     #slides .slide_1 {
+        background-image: url(../img/Portifolio1/Portifólio1_resized1024.PNG);
+        
+       }
+     /*Footer*/
     footer{
  
         background-color: #2d2e33;
@@ -348,8 +362,15 @@
         font-size: 20px;
     }
 /*---------------PROJETOS 4 SECTION------------*/
+
 #slider {
-    width: 100vw;
+    width: 90vw;
+ }
+ /*PROJETOS*/
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+    height: 359px;
  }
  #bullets {
     margin: 150px 0 0;
@@ -436,7 +457,7 @@
     }
     .imgApresenta img{
         box-shadow: 2px 10px 10px black;
-        width: 70%;
+        width: 60%;
         border-radius: 8%;
     }
     .txtApresenta{
@@ -504,7 +525,7 @@
    }
    .HabilidadeETempo {
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
    
     }
     .Projetos{
@@ -512,10 +533,13 @@
         height: auto;
     }
     #slider {
-        margin: 0 10px;
-        width: 100vw;
-      max-width:100vw;
-    }
+        width: 90vw;
+     }
+     /*PROJETOS*/
+     #overflow {
+        width: 100%;
+        overflow: hidden;
+     }
     
     #bullets {
         margin: 150px 0 0;
@@ -538,6 +562,8 @@
         font-size: 15px;
         font-weight: 600;
     }
+    
+    
     /*FOOTER*/
     footer{
  
@@ -550,24 +576,53 @@
         width: 100%;
     }
     .links a{
-        
         margin: 0 15px 8px 0;
-       
     }
     
 }
 @media (max-width: 375px) {
-    .accordion{
-        margin: 20px auto;
-        width: 150px;
-    
+    .TextoLinguagens, .TextoFramework{
+        width: 100%;
     }
+   
     .TXTHabilidades .Titulo h2{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         color: #e48641;
         
     }
-}
+    .ContextoApresenta p{
+        font-size: 15px;
+        color: #000000;
+    }
+    .TXTHabilidades .Titulo h2{
+        font-size: 1.2rem;
+    }
+    .accordion{
+        margin: 0px 0;
+        width: 100%;
+    
+    }
+    .HabilidadeETempo {
+        width: 100vw;
+        height: 70vh;
+    }
+    .TXTHabilidades{
+        flex-direction: column;
+    }
+    #slider {
+        width: 100vw;
+     }
+     /*PROJETOS*/
+     #overflow {
+        width: 100%;
+        overflow: hidden;
+        height: 183px;
+     }
+     #slides .slide_1 {
+        background-image: url(../img/Portifolio1/Portifólio1_resized375.PNG);
+        
+       }
+    }
 @media only screen and (min-height: 2560px){
     .TextoPrincipal{
         padding: 0px 0px 0px 10%;
@@ -642,7 +697,7 @@
         font-weight: 800;
     }
     .ContextoApresenta p{
-        font-size: 3em;
+        font-size: 1em;
         color: #000000;
     }
     .tituloApresenta h1{

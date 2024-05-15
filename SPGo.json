@@ -1,0 +1,12 @@
+{
+    "sourceDirectory": "src",
+    "sharePointSiteUrl": "https://   ",
+    "workspaceRoot": "f:\\Programação\\Portfólio\\Site2024",
+    "publishWorkspaceOptions": {
+        "destinationFolder": "/",
+        "globPattern": "f:\\Programação\\Portfólio\\Site2024\\src\\**\\*.*",
+        "localRoot": "f:\\Programação\\Portfólio\\Site2024\\src"
+    },
+    "publishingScope": "SaveOnly",
+    "authenticationType": "Digest"
+}
